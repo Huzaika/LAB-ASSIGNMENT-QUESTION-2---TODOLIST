@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    android:id="@+id/toolbar_custom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/ic_launcher_background"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/icon"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+       android:layout_marginStart="120dp"
+        android:orientation="horizontal"
+      >
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/cart_icon"
+            />
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/search_icon"
+            />
+
+
+
+
+    </LinearLayout>
+</Toolbar>
