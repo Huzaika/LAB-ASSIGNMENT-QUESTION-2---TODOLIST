@@ -1,4 +1,4 @@
-package edu.cs4730.broadcastdemo2;
+package com.huzaika.broadcastreceiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

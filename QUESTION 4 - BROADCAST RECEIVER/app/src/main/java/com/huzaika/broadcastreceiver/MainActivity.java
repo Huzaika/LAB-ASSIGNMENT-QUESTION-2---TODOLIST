@@ -1,12 +1,9 @@
-package edu.cs4730.broadcastdemo2;
+package com.huzaika.broadcastreceiver;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-/**
- * Nothing to see here.  Just launchers the fragment.
- * the receiver and code is in MainFragment
- */
+
 
 public class MainActivity extends AppCompatActivity {
 
